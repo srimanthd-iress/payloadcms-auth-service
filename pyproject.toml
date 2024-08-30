@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "payloadcms-auth-service"
+version = "0.1.0"
+description = ""
+authors = ["Srimanth Duggineni <srimanth.duggineni@iress.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pysaml2 = "^7.5.0"
+fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
